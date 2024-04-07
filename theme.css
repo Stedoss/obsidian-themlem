@@ -1,6 +1,6 @@
 body {
-  --background-primary: black;
-  --background-secondary: #0e0e0e;
+  --background-primary: #0e0e0e;
+  --background-secondary: black;
   --titlebar-background: var(--background-secondary);
   --titlebar-background-focused: var(--background-secondary);
 
