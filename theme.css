@@ -1,0 +1,17 @@
+body {
+  --background-primary: black;
+  --background-secondary: #0e0e0e;
+  --titlebar-background: var(--background-secondary);
+  --titlebar-background-focused: var(--background-secondary);
+
+  --cursor: pointer;
+
+  --italic-color: #fed7aa;
+
+  --text-normal: white;
+}
+
+/* alternate table backgrounds */
+/* .markdown-rendered tbody tr:nth-child(2n) {
+  background-color: var(--background-secondary);
+} */
