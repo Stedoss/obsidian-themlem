@@ -11,6 +11,12 @@ body {
   --text-normal: white;
 }
 
+/* Italics (including quote boxes) */
+body:not(.default-font-color) em,
+body:not(.default-font-color) span:not(.cm-highlight).cm-em {
+  color: var(--italic-color);
+}
+
 /* alternate table backgrounds */
 /* .markdown-rendered tbody tr:nth-child(2n) {
   background-color: var(--background-secondary);
